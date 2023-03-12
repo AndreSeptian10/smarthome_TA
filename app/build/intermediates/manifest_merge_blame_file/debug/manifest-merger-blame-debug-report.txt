@@ -1,0 +1,139 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smarthome_ta"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:26:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\637baa5844401656c844ac0ec9416057\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.smarthome_ta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\637baa5844401656c844ac0ec9416057\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\637baa5844401656c844ac0ec9416057\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.smarthome_ta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\637baa5844401656c844ac0ec9416057\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\637baa5844401656c844ac0ec9416057\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:5:5-23:19
+23        android:allowBackup="true"
+23-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\637baa5844401656c844ac0ec9416057\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:7:9-65
+26        android:debuggable="true"
+27        android:fullBackupContent="@xml/backup_rules"
+27-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:8:9-54
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:9:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:10:9-41
+30        android:supportsRtl="true"
+30-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:11:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Smarthome_TA" >
+32-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:12:9-50
+33        <activity
+33-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:14:9-22:20
+34            android:name="com.example.smarthome_ta.MainActivity"
+34-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:15:13-41
+35            android:exported="true" >
+35-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:16:13-36
+36            <intent-filter>
+36-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:17:13-21:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:18:17-69
+37-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:18:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:20:17-77
+39-->C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\src\main\AndroidManifest.xml:20:27-74
+40            </intent-filter>
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:29:9-35:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:30:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\e47ad2045f0a286a854271340f2aace9\transformed\firebase-common-20.1.0\AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:31:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+48-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:33:17-109
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:34:17-82
+50        </service>
+51
+52        <activity
+52-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\2ba4c96952e55ca9fa36d0ff5ae7a276\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+53            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+53-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\2ba4c96952e55ca9fa36d0ff5ae7a276\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+54            android:exported="false"
+54-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\2ba4c96952e55ca9fa36d0ff5ae7a276\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+55            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+55-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\2ba4c96952e55ca9fa36d0ff5ae7a276\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+56
+57        <provider
+57-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\e47ad2045f0a286a854271340f2aace9\transformed\firebase-common-20.1.0\AndroidManifest.xml:26:9-31:39
+58            android:name="com.google.firebase.provider.FirebaseInitProvider"
+58-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\e47ad2045f0a286a854271340f2aace9\transformed\firebase-common-20.1.0\AndroidManifest.xml:27:13-77
+59            android:authorities="com.example.smarthome_ta.firebaseinitprovider"
+59-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\e47ad2045f0a286a854271340f2aace9\transformed\firebase-common-20.1.0\AndroidManifest.xml:28:13-72
+60            android:directBootAware="true"
+60-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\e47ad2045f0a286a854271340f2aace9\transformed\firebase-common-20.1.0\AndroidManifest.xml:29:13-43
+61            android:exported="false"
+61-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\e47ad2045f0a286a854271340f2aace9\transformed\firebase-common-20.1.0\AndroidManifest.xml:30:13-37
+62            android:initOrder="100" />
+62-->[com.google.firebase:firebase-common:20.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\e47ad2045f0a286a854271340f2aace9\transformed\firebase-common-20.1.0\AndroidManifest.xml:31:13-36
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\2e3377ffa8e7719e3cad7206f4032c24\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\2e3377ffa8e7719e3cad7206f4032c24\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\2e3377ffa8e7719e3cad7206f4032c24\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3ff3f5f17df23017b78bc9ce01867f07\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3ff3f5f17df23017b78bc9ce01867f07\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+70            android:authorities="com.example.smarthome_ta.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3ff3f5f17df23017b78bc9ce01867f07\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3ff3f5f17df23017b78bc9ce01867f07\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3ff3f5f17df23017b78bc9ce01867f07\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3ff3f5f17df23017b78bc9ce01867f07\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\3ff3f5f17df23017b78bc9ce01867f07\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\236998fe8f3916de83ad9b541d05f5ff\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\236998fe8f3916de83ad9b541d05f5ff\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\236998fe8f3916de83ad9b541d05f5ff\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+78        </provider>
+79    </application>
+80
+81</manifest>

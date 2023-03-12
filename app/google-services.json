@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "138264197377",
+    "firebase_url": "https://smarthometa-5dabc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smarthometa-5dabc",
+    "storage_bucket": "smarthometa-5dabc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138264197377:android:e932ece37a04b2c0450300",
+        "android_client_info": {
+          "package_name": "com.example.smarthome_ta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138264197377-t01mvksjr8rpgkqgls3efmccahgm2vu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrc-bdQe0OaRj-sJylTISjwNJOVPZAhYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138264197377-t01mvksjr8rpgkqgls3efmccahgm2vu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
