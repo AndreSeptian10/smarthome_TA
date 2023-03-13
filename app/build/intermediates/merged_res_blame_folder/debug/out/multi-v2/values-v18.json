@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.smarthome_ta.app-mergeDebugResources-30:/values-v18/values-v18.xml",
+            "outputFile": "com.example.smarthome_ta.app-mergeDebugResources-42:/values-v18/values-v18.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\cb61ca0a542aaf57432572e5a3967105\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",

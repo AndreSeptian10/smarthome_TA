@@ -2,9 +2,12 @@ package com.example.smarthome_ta;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -13,6 +16,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class MainActivity extends AppCompatActivity {
+
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +32,31 @@ public class MainActivity extends AppCompatActivity {
         final Button onlampu = (Button) findViewById(R.id.onlampu);
         final Button offlampu = (Button) findViewById(R.id.offlampu);
 
+        btn = findViewById(R.id.btnmove);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(MainActivity.this,SecondActivity.class));
+
+
+            }
+        });
+
+
+
+
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference refKipas = database.getReference("STATUS_KIPAS");
         DatabaseReference refdoorLock = database.getReference("STATUS_DOOR");
         DatabaseReference refLampu = database.getReference("STATUS_LAMPU");
+
+
+
+
+
 
         refKipas.addValueEventListener(new ValueEventListener() {
             @Override
