@@ -8,6 +8,7 @@ color ic_humidtemp_background
 color ic_launcher_kipas_background
 color ic_launcher_lampu_background
 color ic_launcher_lock_background
+color ic_mic_background
 color ic_temperature_background
 color purple_200
 color purple_500
@@ -20,8 +21,11 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id FirstFragment
 id SecondFragment
+id TextResult
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
+id btnSpeak1
+id btnSpeak2
 id btnmove
 id button_first
 id button_second
@@ -33,6 +37,7 @@ id humi
 id kipas
 id lampu
 id movebtn
+id movebtn1
 id nav_graph
 id nav_host_fragment_content_main
 id offKipas
@@ -47,9 +52,13 @@ id texthumi
 id texttemp
 id textview_first
 id textview_second
+id txvResult
+id voicebox
+layout activity_fourth
 layout activity_main
 layout activity_main2
 layout activity_second
+layout activity_third
 layout content_main
 layout fragment_first
 layout fragment_second
@@ -73,6 +82,9 @@ mipmap ic_launcher_lock
 mipmap ic_launcher_lock_foreground
 mipmap ic_launcher_lock_round
 mipmap ic_launcher_round
+mipmap ic_mic
+mipmap ic_mic_foreground
+mipmap ic_mic_round
 mipmap ic_temperature
 mipmap ic_temperature_foreground
 mipmap ic_temperature_round

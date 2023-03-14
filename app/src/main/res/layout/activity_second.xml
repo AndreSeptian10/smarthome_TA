@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#0073FF"
+    tools:context=".MainActivity2">
+
+    <RelativeLayout
+        android:id="@+id/header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:background="#88B6EE">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smarthome TA"
+            android:textAlignment="center"
+            android:textColor="#F0F0F0"
+            android:textSize="17pt"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/gas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="9dp"
+        android:background="#88B6EE"
+        android:gravity="center_horizontal">
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="200dp"
+            android:background="@mipmap/ic_gas_foreground" />
+
+        <TextView
+            android:id="@+id/textgas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="40dp"
+
+            android:layout_marginLeft="500dp"
+            android:layout_marginTop="45dp"
+            android:textSize="25dp"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/humi"
+        android:layout_below="@id/gas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#88B6EE">
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="200dp"
+            android:background="@mipmap/ic_humidity_foreground" />
+
+        <TextView
+            android:id="@+id/texthumi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="40dp"
+
+            android:layout_marginLeft="500dp"
+            android:textSize="25dp"
+            android:layout_marginTop="45dp"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/temp"
+        android:layout_below="@id/humi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#88B6EE">
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="200dp"
+            android:background="@mipmap/ic_temperature_foreground" />
+
+        <TextView
+            android:id="@+id/texttemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="40dp"
+
+            android:layout_marginLeft="500dp"
+            android:textSize="25dp"
+            android:layout_marginTop="45dp"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/movebtn1"
+        android:layout_below="@id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#88B6EE">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+
+
+            <Button
+                android:id="@+id/btnmove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                app:backgroundTint="#0077b6"
+                android:text="Next"
+                android:textColor="#ffffff"
+                android:textSize="10pt" />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+
+

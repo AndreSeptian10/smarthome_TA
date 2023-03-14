@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">138264197377-t01mvksjr8rpgkqgls3efmccahgm2vu3.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://smarthometa-5dabc-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">138264197377</string>
+    <string name="google_api_key" translatable="false">AIzaSyDrc-bdQe0OaRj-sJylTISjwNJOVPZAhYI</string>
+    <string name="google_app_id" translatable="false">1:138264197377:android:e932ece37a04b2c0450300</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDrc-bdQe0OaRj-sJylTISjwNJOVPZAhYI</string>
+    <string name="google_storage_bucket" translatable="false">smarthometa-5dabc.appspot.com</string>
+    <string name="project_id" translatable="false">smarthometa-5dabc</string>
+</resources>
