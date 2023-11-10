@@ -50,3 +50,34 @@ public class ThirdActivity extends AppCompatActivity {
         }
     }
 }
+//
+//    // Set up Firebase Realtime Database
+//    FirebaseDatabase database = FirebaseDatabase.getInstance();
+//    DatabaseReference ref = database.getReference("conditions");
+//
+//    // Implement Google Speech-to-Text API
+//    private void startSpeechRecognition() {
+//        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+//        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+//        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
+//        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak a condition to update");
+//        try {
+//            startActivityForResult(intent, REQUEST_CODE_SPEECH_INPUT);
+//        } catch (ActivityNotFoundException e) {
+//            Toast.makeText(getApplicationContext(), "Speech input not supported", Toast.LENGTH_SHORT).show();
+//        }
+//    }
+//
+//    // Receive speech input from user
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//
+//        if (requestCode == REQUEST_CODE_SPEECH_INPUT && resultCode == RESULT_OK && data != null) {
+//            ArrayList<String> result = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+//            String condition = result.get(0);
+//
+//            // Modify the condition in the database
+//            ref.child(condition).setValue(true);
+//        }
+//    }

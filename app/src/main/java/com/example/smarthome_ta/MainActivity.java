@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final Button onKipas = (Button) findViewById(R.id.onKipas);
         final Button offKipas = (Button) findViewById(R.id.offKipas);
-
         final Button ondoorLock = (Button) findViewById(R.id.ondoorLock);
         final Button offdoorLock = (Button) findViewById(R.id.offdoorLock);
-
         final Button onlampu = (Button) findViewById(R.id.onlampu);
         final Button offlampu = (Button) findViewById(R.id.offlampu);
+//        final Button onpower = (Button) findViewById(R.id.onpower);
+//        final Button offpower = (Button) findViewById(R.id.offpower);
 
         btn = findViewById(R.id.btnmove);
 
@@ -44,19 +44,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference refKipas = database.getReference("STATUS_KIPAS");
-        DatabaseReference refdoorLock = database.getReference("STATUS_DOOR");
-        DatabaseReference refLampu = database.getReference("STATUS_LAMPU");
-
-
-
-
-
+        DatabaseReference refKipas = database.getReference("STATUS_KIPAS/value");
+        DatabaseReference refdoorLock = database.getReference("/STATUS_DOOR/value");
+        DatabaseReference refLampu = database.getReference("STATUS_LAMPU/value");
+        DatabaseReference refPower = database.getReference("voice");
 
         refKipas.addValueEventListener(new ValueEventListener() {
             @Override
@@ -129,11 +121,34 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+//        refPower.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                if(snapshot.exists()){
+//                    final Long message = snapshot.getValue(Long.class);
+//
+//                    if(message==1){
+//                        offpower.setVisibility(View.GONE);
+//                        onpower.setVisibility(View.VISIBLE);
+//                    }
+//                    else if(message==0){
+//                        onpower.setVisibility(View.GONE);
+//                        offpower.setVisibility(View.VISIBLE);
+//                    }
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
         onKipas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_KIPAS");
+                DatabaseReference myref = database.getReference("STATUS_KIPAS/value");
 
                 myref.setValue(0);
             }
@@ -143,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_KIPAS");
+                DatabaseReference myref = database.getReference("STATUS_KIPAS/value");
 
                 myref.setValue(1);
             }
@@ -153,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_DOOR");
+                DatabaseReference myref = database.getReference("/STATUS_DOOR/value");
 
                 myref.setValue(0);
             }
@@ -163,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_DOOR");
+                DatabaseReference myref = database.getReference("/STATUS_DOOR/value");
 
                 myref.setValue(1);
             }
@@ -173,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_LAMPU");
+                DatabaseReference myref = database.getReference("STATUS_LAMPU/value");
 
                 myref.setValue(0);
             }
@@ -183,10 +198,30 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_LAMPU");
+                DatabaseReference myref = database.getReference("STATUS_LAMPU/value");
 
                 myref.setValue(1);
             }
         });
+
+//        onpower.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                FirebaseDatabase database = FirebaseDatabase.getInstance();
+//                DatabaseReference myref = database.getReference("voice");
+//
+//                myref.setValue("Lampu nyala");
+//            }
+//        });
+//
+//        offpower.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                FirebaseDatabase database = FirebaseDatabase.getInstance();
+//                DatabaseReference myref = database.getReference("voice");
+//
+//                myref.setValue("");
+//            }
+//        });
     }
 }

@@ -3004,7 +3004,6 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnSpeak1
-id btnSpeak2
 id btnmove
 id buttonPanel
 id button_first

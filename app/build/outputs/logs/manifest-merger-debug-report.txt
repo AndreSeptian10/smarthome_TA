@@ -12,6 +12,7 @@ MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\ASUS\.gradle
 MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\ASUS\.gradle\caches\transforms-3\cb61ca0a542aaf57432572e5a3967105\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:15:1-38:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\ASUS\.gradle\caches\transforms-3\d70ede6871e02f5d456f32140e22011c\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\ASUS\.gradle\caches\transforms-3\9b7298653baba42ae789d53a66548875\transformed\multidex-1.0.3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\20fdd25e7e72786e012e72daa2646323\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\ASUS\.gradle\caches\transforms-3\f75fdcae1e8bf70036d123c678fe80da\transformed\firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\ASUS\.gradle\caches\transforms-3\c12ceb8a7077540aec53baf61097f6bc\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
@@ -203,6 +204,8 @@ MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle
 MERGED from [com.google.firebase:firebase-database:20.0.4] C:\Users\ASUS\.gradle\caches\transforms-3\afc7227b9e9a85e26caf586bdf8f98aa\transformed\firebase-database-20.0.4\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\ASUS\.gradle\caches\transforms-3\d70ede6871e02f5d456f32140e22011c\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] C:\Users\ASUS\.gradle\caches\transforms-3\d70ede6871e02f5d456f32140e22011c\transformed\navigation-fragment-2.5.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\ASUS\.gradle\caches\transforms-3\9b7298653baba42ae789d53a66548875\transformed\multidex-1.0.3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\ASUS\.gradle\caches\transforms-3\9b7298653baba42ae789d53a66548875\transformed\multidex-1.0.3\AndroidManifest.xml:20:5-43
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\20fdd25e7e72786e012e72daa2646323\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\20fdd25e7e72786e012e72daa2646323\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta02] C:\Users\ASUS\.gradle\caches\transforms-3\f75fdcae1e8bf70036d123c678fe80da\transformed\firebase-appcheck-interop-16.0.0-beta02\AndroidManifest.xml:19:5-21:41

@@ -25,7 +25,6 @@ id TextResult
 id action_FirstFragment_to_SecondFragment
 id action_SecondFragment_to_FirstFragment
 id btnSpeak1
-id btnSpeak2
 id btnmove
 id button_first
 id button_second

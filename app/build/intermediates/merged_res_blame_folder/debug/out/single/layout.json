@@ -12,6 +12,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\content_main.xml"
     },
     {
+        "merged": "com.example.smarthome_ta.app-mergeDebugResources-43:/layout/activity_main.xml",
+        "source": "com.example.smarthome_ta.app-main-46:/layout/activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_main.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_main.xml"
     },
@@ -26,10 +30,6 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_main2.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_main2.xml"
-    },
-    {
-        "merged": "com.example.smarthome_ta.app-mergeDebugResources-43:/layout/activity_third.xml",
-        "source": "com.example.smarthome_ta.app-main-46:/layout/activity_third.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_fourth.xml",

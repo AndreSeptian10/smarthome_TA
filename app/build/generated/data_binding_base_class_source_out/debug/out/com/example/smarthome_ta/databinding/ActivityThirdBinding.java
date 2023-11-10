@@ -4,7 +4,6 @@ package com.example.smarthome_ta.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -24,20 +23,15 @@ public final class ActivityThirdBinding implements ViewBinding {
   public final TextView TextResult;
 
   @NonNull
-  public final ImageView btnSpeak2;
-
-  @NonNull
   public final RelativeLayout header;
 
   @NonNull
   public final RelativeLayout voicebox;
 
   private ActivityThirdBinding(@NonNull RelativeLayout rootView, @NonNull TextView TextResult,
-      @NonNull ImageView btnSpeak2, @NonNull RelativeLayout header,
-      @NonNull RelativeLayout voicebox) {
+      @NonNull RelativeLayout header, @NonNull RelativeLayout voicebox) {
     this.rootView = rootView;
     this.TextResult = TextResult;
-    this.btnSpeak2 = btnSpeak2;
     this.header = header;
     this.voicebox = voicebox;
   }
@@ -75,12 +69,6 @@ public final class ActivityThirdBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnSpeak2;
-      ImageView btnSpeak2 = ViewBindings.findChildViewById(rootView, id);
-      if (btnSpeak2 == null) {
-        break missingId;
-      }
-
       id = R.id.header;
       RelativeLayout header = ViewBindings.findChildViewById(rootView, id);
       if (header == null) {
@@ -93,8 +81,7 @@ public final class ActivityThirdBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityThirdBinding((RelativeLayout) rootView, TextResult, btnSpeak2, header,
-          voicebox);
+      return new ActivityThirdBinding((RelativeLayout) rootView, TextResult, header, voicebox);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
