@@ -4,7 +4,7 @@
             "outputFile": "com.example.smarthome_ta.app-mergeDebugResources-42:/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\cb61ca0a542aaf57432572e5a3967105\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\1bb2d0875bc2275e2c4b364e659d0eaf\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

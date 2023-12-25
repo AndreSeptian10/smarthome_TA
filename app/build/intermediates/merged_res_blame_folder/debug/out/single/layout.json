@@ -4,16 +4,16 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_third.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_first.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\content_main4.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\content_main4.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\content_main.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\content_main.xml"
     },
     {
-        "merged": "com.example.smarthome_ta.app-mergeDebugResources-43:/layout/activity_main.xml",
-        "source": "com.example.smarthome_ta.app-main-46:/layout/activity_main.xml"
+        "merged": "com.example.smarthome_ta.app-mergeDebugResources-43:/layout/activity_main4.xml",
+        "source": "com.example.smarthome_ta.app-main-46:/layout/activity_main4.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_main.xml",
@@ -28,11 +28,47 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_second.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_main2.xml",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_main2.xml"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\fragment_second3.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_second3.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\fragment_first2.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_first2.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_textoffline.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_textoffline.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\content_textoffline.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\content_textoffline.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_fourth.xml",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_fourth.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\fragment_second2.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_second2.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_main4.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_main4.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_testoffline.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_testoffline.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-mergeDebugResources-43:\\layout\\fragment_first3.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_first3.xml"
     }
 ]

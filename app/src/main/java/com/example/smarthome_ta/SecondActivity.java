@@ -20,6 +20,7 @@ public class SecondActivity extends AppCompatActivity {
     String statusHumi;
     String statusTemp;
     Button btn1;
+    Button btn2;
 
 
     @Override
@@ -45,12 +46,23 @@ public class SecondActivity extends AppCompatActivity {
         refTemp = FirebaseDatabase.getInstance().getReference();
 
         btn1 = findViewById(R.id.btnmove);
+        btn2 = findViewById(R.id.btnmove1);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 startActivity(new Intent(SecondActivity.this,ThirdActivity.class));
+
+
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(SecondActivity.this,MainActivity4.class));
 
 
             }
