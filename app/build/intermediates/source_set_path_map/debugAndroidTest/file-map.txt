@@ -1,0 +1,7 @@
+com.example.smarthome_ta.test.app-annotation-experimental-1.3.0-0 C:\Users\ASUS\.gradle\caches\transforms-3\1d4e73636ee9a559b7bdd328367c2f8c\transformed\annotation-experimental-1.3.0\res
+com.example.smarthome_ta.test.app-core-1.5.0-1 C:\Users\ASUS\.gradle\caches\transforms-3\9755aed9219e03fba3e1561c4133435b\transformed\core-1.5.0\res
+com.example.smarthome_ta.test.app-androidTest-2 C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\build\generated\res\resValues\androidTest\debug
+com.example.smarthome_ta.test.app-androidTest-3 C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\build\generated\res\rs\androidTest\debug
+com.example.smarthome_ta.test.app-mergeDebugAndroidTestResources-4 C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.smarthome_ta.test.app-mergeDebugAndroidTestResources-5 C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.smarthome_ta.test.app-merged_res-6 C:\Users\ASUS\AndroidStudioProjects\smarthome_TA\app\build\intermediates\merged_res\debugAndroidTest

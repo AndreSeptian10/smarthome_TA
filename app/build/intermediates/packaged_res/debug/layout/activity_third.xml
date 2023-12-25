@@ -30,7 +30,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/TextResult"
+        android:id="@+id/txvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/header"
@@ -41,7 +41,8 @@
 
         android:layout_marginLeft="500dp"
         android:layout_marginTop="295dp"
-        android:text="TextView"
+        android:text="Masukkan Perntah Suara
+"
         android:textSize="25dp" />
 
 
@@ -53,7 +54,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:background="#88B6EE">
+        android:background="#88B6EE"
+        >
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -64,9 +66,8 @@
 
 
             <ImageView
-                android:id="@+id/btnSpeak2"
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="101dp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 android:gravity="center"

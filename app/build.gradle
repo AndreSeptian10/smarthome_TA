@@ -7,12 +7,18 @@ android {
     namespace 'com.example.smarthome_ta'
     compileSdk 33
 
+    buildFeatures{
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.smarthome_ta"
         minSdk 19
         targetSdk 33
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+        minSdkVersion 21
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -30,6 +36,11 @@ android {
     buildFeatures {
         viewBinding true
     }
+    sourceSets {
+        main {
+            assets.srcDirs += "$buildDir/generated/assets"
+        }
+    }
 }
 
 dependencies {
@@ -43,4 +54,17 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation group: 'com.alphacephei', name: 'vosk-android', version: '0.3.32+'
 }
+//tasks.register('genUUID') {
+//    def uuid = UUID.randomUUID().toString()
+//    def odir = file("$buildDir/generated/assets/model-en-us")
+//    def ofile = file("$odir/uuid")
+//    doLast {
+//        mkdir odir
+//        ofile.text = uuid
+//    }
+//}
+//
+//preBuild.dependsOn(genUUID)
