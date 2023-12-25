@@ -30,7 +30,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/TextResult"
+        android:id="@+id/txvResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/header"
@@ -41,7 +41,8 @@
 
         android:layout_marginLeft="500dp"
         android:layout_marginTop="295dp"
-        android:text="TextView"
+        android:text="Masukkan Perntah Suara
+"
         android:textSize="25dp" />
 
 

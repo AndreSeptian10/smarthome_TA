@@ -4,7 +4,7 @@
             "outputFile": "com.example.smarthome_ta.app-mergeDebugResources-42:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\cb61ca0a542aaf57432572e5a3967105\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\1bb2d0875bc2275e2c4b364e659d0eaf\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\0c97999dcddf128d83b789ad1647f99d\\transformed\\material-1.8.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\caca43710495ca285049e67cbcbd96df\\transformed\\material-1.8.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

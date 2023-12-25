@@ -4,7 +4,7 @@
             "outputFile": "com.example.smarthome_ta.app-mergeDebugResources-42:/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\0c97999dcddf128d83b789ad1647f99d\\transformed\\material-1.8.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
+                    "source": "C:\\Users\\ASUS\\.gradle\\caches\\transforms-3\\caca43710495ca285049e67cbcbd96df\\transformed\\material-1.8.0\\res\\values-w360dp-port-v13\\values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

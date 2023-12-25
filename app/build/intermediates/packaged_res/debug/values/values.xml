@@ -18,7 +18,9 @@
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">smarthome_TA</string>
+    <string name="continueRecognition">Continue</string>
     <string name="default_web_client_id" translatable="false">138264197377-t01mvksjr8rpgkqgls3efmccahgm2vu3.apps.googleusercontent.com</string>
+    <string name="failed">Failed to init recognizer %s\n</string>
     <string name="firebase_database_url" translatable="false">https://smarthometa-5dabc-default-rtdb.asia-southeast1.firebasedatabase.app</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="gcm_defaultSenderId" translatable="false">138264197377</string>
@@ -29,10 +31,21 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="next">Next</string>
+    <string name="pause">Pause</string>
+    <string name="preparing">Preparing the recognizer\n</string>
     <string name="previous">Previous</string>
     <string name="project_id" translatable="false">smarthometa-5dabc</string>
+    <string name="ready">Ready\n</string>
+    <string name="recognize_file">Recognize File</string>
+    <string name="recognize_microphone">Recognize Microphone</string>
+    <string name="say_something">Say something\n</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="starting">Starting\n</string>
+    <string name="stop_file">Stop File</string>
+    <string name="stop_microphone">Stop Microphone</string>
     <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main4">MainActivity4</string>
+    <string name="title_activity_textoffline">textoffline</string>
     <style name="Theme.Smarthome_TA" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

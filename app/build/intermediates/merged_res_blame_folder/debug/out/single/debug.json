@@ -8,10 +8,6 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_main2.xml"
     },
     {
-        "merged": "com.example.smarthome_ta.app-merged_res-44:/layout_activity_main.xml.flat",
-        "source": "com.example.smarthome_ta.app-main-46:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher_lampu.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_lampu.xml"
     },
@@ -74,6 +70,10 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\navigation_nav_graph.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_activity_testoffline.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_testoffline.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-anydpi-v26_ic_gas_round.xml.flat",
@@ -212,6 +212,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-hdpi\\ic_temperature_foreground.png"
     },
     {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\navigation_nav_graph3.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\navigation\\nav_graph3.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-mdpi_ic_launcher_lampu_round.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-mdpi\\ic_launcher_lampu_round.png"
     },
@@ -240,6 +244,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-xxxhdpi\\ic_humidity_foreground.png"
     },
     {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_fragment_second3.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_second3.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-xhdpi_ic_mic.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-xhdpi\\ic_mic.png"
     },
@@ -256,6 +264,10 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-hdpi\\ic_mic.png"
     },
     {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_fragment_first2.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_first2.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-hdpi_ic_gas_round.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-hdpi\\ic_gas_round.png"
     },
@@ -266,6 +278,10 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher_lampu.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_lampu.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_fragment_second2.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_second2.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-xxxhdpi_ic_gas.png.flat",
@@ -286,6 +302,10 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\navigation_nav_graph2.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\navigation\\nav_graph2.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -318,6 +338,10 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-xxhdpi_ic_mic_round.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-xxhdpi\\ic_mic_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_content_main4.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\content_main4.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-mdpi_ic_mic_round.png.flat",
@@ -362,6 +386,10 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-hdpi_ic_temperature_round.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-hdpi\\ic_temperature_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_activity_textoffline.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_textoffline.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-xxhdpi_ic_humidtemp_foreground.png.flat",
@@ -420,8 +448,16 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-anydpi-v26\\ic_humidity.xml"
     },
     {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_fragment_first3.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\fragment_first3.xml"
+    },
+    {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-hdpi_ic_mic_round.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-hdpi\\ic_mic_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_activity_main4.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\activity_main4.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-hdpi_ic_temperature.png.flat",
@@ -446,6 +482,10 @@
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-hdpi_ic_launcher_kipas.png.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-hdpi\\ic_launcher_kipas.png"
+    },
+    {
+        "merged": "com.example.smarthome_ta.app-merged_res-44:/layout_activity_main4.xml.flat",
+        "source": "com.example.smarthome_ta.app-main-46:/layout/activity_main4.xml"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_activity_fourth.xml.flat",
@@ -520,16 +560,20 @@
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-hdpi\\ic_humidity_round.png"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-mdpi_ic_mic.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-mdpi\\ic_mic.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\layout_content_textoffline.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\layout\\content_textoffline.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-xhdpi_ic_humidity_foreground.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-xhdpi\\ic_humidity_foreground.png"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher_kipas.xml.flat",
         "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_kipas.xml"
     },
     {
-        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-xhdpi_ic_humidity_foreground.png.flat",
-        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-xhdpi\\ic_humidity_foreground.png"
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-mdpi_ic_mic.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-main-46:\\mipmap-mdpi\\ic_mic.png"
     },
     {
         "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.5\\com.example.smarthome_ta.app-merged_res-44:\\mipmap-xxxhdpi_ic_humidtemp.png.flat",

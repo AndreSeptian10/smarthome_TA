@@ -12,7 +12,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Smarthome_TA"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/Theme.Smarthome_TA.NoActionBar" />
+        <activity
+            android:name=".testoffline"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".textoffline"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_textoffline"-->
+<!--            android:theme="@style/Theme.Smarthome_TA.NoActionBar" />-->
         <activity
             android:name=".FourthActivity"
             android:exported="false" />

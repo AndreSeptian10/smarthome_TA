@@ -45,9 +45,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference refKipas = database.getReference("STATUS_KIPAS/value");
-        DatabaseReference refdoorLock = database.getReference("/STATUS_DOOR/value");
-        DatabaseReference refLampu = database.getReference("STATUS_LAMPU/value");
+        DatabaseReference refKipas = database.getReference("STATUS_KIPAS");
+        DatabaseReference refdoorLock = database.getReference("STATUS_DOOR");
+        DatabaseReference refLampu = database.getReference("STATUS_LAMPU");
         DatabaseReference refPower = database.getReference("voice");
 
         refKipas.addValueEventListener(new ValueEventListener() {
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_KIPAS/value");
+                DatabaseReference myref = database.getReference("STATUS_KIPAS");
 
                 myref.setValue(0);
             }
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_KIPAS/value");
+                DatabaseReference myref = database.getReference("STATUS_KIPAS");
 
                 myref.setValue(1);
             }
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("/STATUS_DOOR/value");
+                DatabaseReference myref = database.getReference("/STATUS_DOOR");
 
                 myref.setValue(0);
             }
@@ -178,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("/STATUS_DOOR/value");
+                DatabaseReference myref = database.getReference("/STATUS_DOOR");
 
                 myref.setValue(1);
             }
@@ -188,7 +188,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_LAMPU/value");
+                DatabaseReference myref = database.getReference("STATUS_LAMPU");
 
                 myref.setValue(0);
             }
@@ -198,7 +198,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 FirebaseDatabase database = FirebaseDatabase.getInstance();
-                DatabaseReference myref = database.getReference("STATUS_LAMPU/value");
+                DatabaseReference myref = database.getReference("STATUS_LAMPU");
 
                 myref.setValue(1);
             }
